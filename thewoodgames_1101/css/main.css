@@ -11,3 +11,40 @@ html {
     -moz-box-sizing: inherit;
     box-sizing: inherit;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    width: 980px;
+    margin: 0 auto;
+    /* background-color: darkgrey; */
+  }
+  .main>header{
+    text-align: center;
+}
+  .main>header>.logo{      
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+.main>nav{
+    border-top: 1px solid coral;
+    border-bottom: 1px solid coral;
+    margin-bottom: 20px;
+}
+.main>nav>ul>li{
+    display: inline-block;
+    width: 33%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.en-1{
+    color: burlywood;
+}
