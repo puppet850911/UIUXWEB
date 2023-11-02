@@ -115,6 +115,76 @@ width: 100%;
 }
 
 
+
+/*shop_html的CSS*/
+.main>.shop_content .p_content{
+  line-height: 20px;
+  color: #58595B;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+.shop_content>.item_wrap{
+  border: 1px solid #898000;
+  font-weight: bold;
+}
+
+.shop_content>.item_wrap>.item_row{
+  display: flex;
+  padding: 15px;
+}
+
+.shop_content>.item_wrap>.item_row>div{
+  flex: 1;
+}
+
+.shop_content>.item_wrap>.item_row>.item_right .item_title{
+  border-bottom: 1px solid #898000;
+  padding-bottom: 7px;
+
+}
+.item_child{
+  display: flex;
+}
+
+.shop_content>.item_wrap>.item_row>.item_right .left_01{
+    color: #898000;
+    font-size: 17px;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.item_child_right{
+  line-height: 19px;
+  font-size: 15px;
+}
+
+.shop_content>.item_wrap>.item_row>.item_right .left_02{
+    font-size: 14px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.buy_btn{
+  margin-left: 70px;
+  text-decoration: none;
+  background: #827B00;
+  color: #fff;
+  padding: 7px;
+  padding-top: 10px;
+  display: block;
+  border-radius: 14px;
+}
+
+.buy_btn:hover{
+  background: #000;
+}
+
+
+
+
+
 @media(max-width:992px){
   .main>nav>ul{
     flex-direction: column;
