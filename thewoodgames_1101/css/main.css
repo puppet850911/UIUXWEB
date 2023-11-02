@@ -122,5 +122,8 @@ width: 100%;
   .main>nav>ul>li{
     width: 100%;
   }
+  .main>nav>ul>li>.nav_child{
+    display: none;
+  }
 
 }
