@@ -17,12 +17,18 @@ ul {
     margin: 0;
     padding: 0;
   }
+
+body{
+  font-size: 50px;
+}
+
   .main{
-    width: 980px;
+    width: 880px;
     margin: 0 auto;
     /* background-color: darkgrey; */
   }
   .main>header{
+    /* margin: 0 auto; */
     text-align: center;
 }
   .main>header>.logo{      
@@ -30,6 +36,8 @@ ul {
     margin-top: 40px;
     margin-bottom: 20px;
   }
+
+
 .main>nav{
     border-top: 1px solid coral;
     border-bottom: 1px solid coral;
@@ -37,14 +45,56 @@ ul {
 }
 .main>nav>ul>li{
     display: inline-block;
-    width: 33%;
-    height: 90px;
-    line-height: 90px;
+    width: 32%;
+    height: 70px;
+    line-height: 70px;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-
 }
+
+.main>nav>ul>li>.nav_item{
+  text-decoration: none;
+  color: black;
+  display: block;
+  position: relative;  
+}
+
+.main>nav>ul>li>.nav_item>.nav_child{
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.main>nav>ul>li>.nav_item>.nav_child a{
+  line-height: 22px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #898000;
+  font-size: 15px;
+  padding: 10px 20px;
+  display: block;
+  text-align: left;
+}
+
+.main>nav>ul>li>.nav_item>.nav_child a:hover{
+  background-color: gray;
+}
+
+.main>nav>ul>li>.nav_item:hover{
+    background-color: #DCDDDD;
+}
+
+.main>nav>ul>li>.nav_item:hover .nav_child{
+   display: block;
+}
+
+
+
 .en-1{
     color: burlywood;
+}
+
+.main>.content img{
+width: 100%;
 }
