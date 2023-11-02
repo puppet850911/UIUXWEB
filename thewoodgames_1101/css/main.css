@@ -114,6 +114,13 @@ body{
 width: 100%;
 }
 
+
 @media(max-width:992px){
-  .main>nav>ul>li
+  .main>nav>ul{
+    flex-direction: column;
+  }
+  .main>nav>ul>li{
+    width: 100%;
+  }
+
 }
