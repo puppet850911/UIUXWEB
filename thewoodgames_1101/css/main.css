@@ -26,6 +26,7 @@ body{
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
+    padding: 0 15px;
     /* background-color: darkgrey; */
   }
   .main>header{
@@ -135,6 +136,11 @@ width: 100%;
   display: flex;
   padding: 15px;
   gap: 15px;
+  border: 1px solid #827B00;
+}
+.shop_content>.item_wrap>.item_row:last-child{
+  border-bottom:  none;
+
 }
 
 /*平均分配版面*/
@@ -231,7 +237,10 @@ width: 100%;
 
 
 
-
+footer{
+  background-color: #827B00;
+  margin-top: 50px;
+}
 
 
 
