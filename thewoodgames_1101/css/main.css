@@ -75,6 +75,7 @@ body{
   display: block;
   position: relative;  
   width: 100%;
+  z-index: 5;
 }
 
 .main>nav>ul>li>.nav_item>.nav_child{
@@ -241,7 +242,66 @@ footer{
   background-color: #827B00;
   margin-top: 50px;
 }
+/*flex 解決泛方案1*/
+/* footer>.main{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+footer>.main>ul{
+  display: flex;
+  justify-content: space-between;
 
+} */
+
+/*flex 解決泛方案2*/
+/* footer>.main{
+  display: flex;
+  height: 120px;
+  padding-top: 20px;
+}
+footer>.main>ul{
+  flex: 1;
+  display: flex;
+}
+footer>.main>div{
+  flex: 1;
+  text-align: right;
+} */
+
+/*flex 解決泛方案3*/
+footer>.main{
+  display:flex;
+  height: 120px;
+  padding: 20px;
+}
+footer>.main>ul{
+  display: flex;
+  margin-right: auto;
+  gap: 15px;
+}
+
+/*float 解決方案4*/
+/* footer>.main{
+  height: 120px;
+}
+footer>.main>ul{
+    float: left;
+}
+footer>.main>div{
+    float: right;
+} */
+
+footer>.main>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+footer>.main>ul>li>a:hover{
+  border-bottom: 2px solid #fff;
+}
 
 
 
