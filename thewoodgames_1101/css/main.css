@@ -52,7 +52,7 @@ body{
   
   /* 這是display inlink-block的排版用法 */
     /* display: inline-block;
-    width: 33.33%;
+    width: 33.333%;
     margin-right: -4px; */
 
 
@@ -73,6 +73,7 @@ body{
   color: black;
   display: block;
   position: relative;  
+  width: 100%;
 }
 
 .main>nav>ul>li>.nav_item>.nav_child{
@@ -135,8 +136,44 @@ width: 100%;
   padding: 15px;
 }
 
-.shop_content>.item_wrap>.item_row>div{
+/*平均分配版面*/
+/* .shop_content>.item_wrap>.item_row>div{
   flex: 1;
+} */
+
+.shop_content>.item_wrap>.item_row>.item_left{
+     width: 20%;
+}
+
+.product_img{
+  width: 100%;
+}
+
+.shop_content>.item_wrap>.item_row>.item_mid{
+     width: 40%;
+     padding: 0 15px;
+     display: flex;
+     flex-direction: column;
+    
+
+     /* justify-content:space-between; */
+
+     /* position: relative; */
+}
+.price{
+  color: #827B00;
+/* margin-top: auto; */
+}
+.item_mid>h2{
+  margin: 0;
+  font-size: 22px;
+  line-height: 25px;
+
+  margin-bottom: auto;
+}
+
+.shop_content>.item_wrap>.item_row>.item_right{
+     width: 40%;
 }
 
 .shop_content>.item_wrap>.item_row>.item_right .item_title{
