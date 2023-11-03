@@ -162,6 +162,9 @@ width: 100%;
 }
 .price{
   color: #827B00;
+
+  /* position: absolute;
+  bottom: 0; */
 /* margin-top: auto; */
 }
 .item_mid>h2{
